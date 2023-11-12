@@ -1,0 +1,370 @@
+
+
+:root{
+
+    --font-t1: bold 72px 'Noto Serif Lao', serif;
+    --font-t2: bold 66px 'Noto Serif Lao', serif;
+    --font-t3: bold 56px 'Noto Serif Lao', serif;
+    --font-t4: bold 48px 'Noto Serif Lao', serif;
+    --font-t5: bold 40px 'Noto Serif Lao', serif;
+    --font-t6: bold 36px 'Noto Serif Lao', serif;
+    --font-t7: bold 28px 'Noto Serif Lao', serif;
+    --font-t8: bold 24px 'Noto Serif Lao', serif;
+
+    --lh-t1: 80px;
+    --lh-t2: 74px;
+    --lh-t3: 64px;
+    --lh-t4: 56px;
+    --lh-t5: 46px;
+    --lh-t6: 40px;
+    --lh-t7: 32px;
+    --lh-t8: 28px;
+
+    --font-p1: 20px 'Poppins', sans-serif;
+    --font-p2: 18px 'Poppins', sans-serif;
+    --font-p3: 16px 'Poppins', sans-serif;
+    --font-p4: 14px 'Poppins', sans-serif;
+    --font-p5: 12px 'Poppins', sans-serif;
+
+    --lh-p1: 24px;
+    --lh-p2: 22px;
+    --lh-p3: 20px;
+    --lh-p4: 18px;
+    --lh-p5: 16px;
+
+    --font-u1: normal 16px 'Poppins', sans-serif;
+    --font-u2: normal 14px 'Poppins', sans-serif;
+    --font-u3: normal 12px 'Poppins', sans-serif;
+
+    --lh-u1: 22px;
+    --lh-u2: 18px;
+    --lh-u3: 16px;
+
+    --font-w-m: 500;
+    --font-w-sb: 700;
+
+    --color-white: #FFFFFF;
+    --color-black: #02021D;
+    --color-fr-green: #C1F651;
+    --color-ye-green: #81D376;
+    --color-grey300: #E3E5ED;
+    --color-dg-blue: #3184FF;
+    --color-or-red: #F14E2E;
+
+
+}
+
+.P2{
+    font: 400 var(--font-p2);
+    line-height: var(--lh-p2);
+}
+
+.P1-bold{
+    font: 500 var(--font-p1);
+    line-height: var(--lh-p1);
+}
+
+.U1_thin{
+    font: 300 var(--font-u1);
+    line-height: var(--lh-u1) ; 
+}
+
+.T4{
+
+    font: var(--font-t4);
+    line-height: var(--lh-t4);
+    
+}
+
+.U1_bold{
+    font: 500 var(--font-u1);
+    line-height: var(--lh-u1) ;
+}
+
+.U1{
+    font: 400 var(--font-u1);
+    line-height: var(--lh-u1) ;
+}
+
+.P1 {
+    font: var(--font-w-m) var(--font-p1);
+    line-height: var(--lh-p1);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+
+.log-input, .ver-input{
+    border: 1px solid var(--color-grey300);
+    border-radius: 16px;
+    padding-right: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 18px;
+    /* width: 470px; */
+    height: 22px;
+}
+
+.log-input::placeholder{
+    color: var(--color-grey300);
+}
+
+.submit-button{
+    width: auto;
+    height: 56px;
+    padding: 17px 24px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border: 0px;
+    border-radius: 32px;
+    /* margin-top: 24px; */
+}
+
+.log-form, form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+}
+
+.log-form-bottom, .reg-form-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.log-form-full{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    width: 470px;
+    height: 306px;
+    /* align-items: center; */
+    flex-shrink: 0;
+
+}
+
+
+.main-content{
+    height: 506px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 132px;
+    padding-right: 132px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    /* align-items: center; */
+
+}
+
+
+.log-reg{
+    display: flex;
+    gap: 12px;
+}
+
+
+
+/* second file */
+
+.reg-form-full{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    width: 470px;
+    height: 410px;
+    flex-shrink: 0;
+}
+
+fieldset{
+    border-width: 1px !important;
+    border-radius: 16px;
+    height: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0px !important;
+    padding-top: 5px !important;
+    padding-right: 0px !important;
+    padding-left: 10px !important;
+}
+
+.reg-input{
+    border: 0px;
+    padding: 0px;
+    width: 440px;
+    height: auto;
+
+}
+
+legend{
+    font: 300 var(--font-u3);
+    line-height: var(--lh-u3) ;
+    padding: 4px 8px;
+}
+
+.login::placeholder{
+    color: var(--color-dg-blue);
+}
+
+#login{
+    color: var(--color-dg-blue);
+    border-color: var(--color-dg-blue) !important;
+}
+
+.username::placeholder{
+    color: var(--color-ye-green);
+}
+
+#username{
+    color: var(--color-ye-green);
+    border-color: var(--color-ye-green) !important;
+}
+
+.password::placeholder{
+    color: var(--color-or-red);
+}
+
+#password{
+    color: var(--color-or-red);
+    border-color: var(--color-or-red) !important;
+}
+
+label{
+    height: 56px;
+    display: flex;
+}
+
+.reg-form-full textarea:focus, input:focus{
+    outline: none;
+    color: inherit;
+}
+
+
+/* third file */
+
+.verification-form-full{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    width: 470px;
+    height: 390px;
+    flex-shrink: 0;
+}
+
+.verification-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    width: 470px;
+    height: 168px;
+    flex-shrink: 0;
+}
+
+.verification-text > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:  var(--color-black);
+    width: 470px;
+    height: 80px;
+    gap: 12px;
+}
+
+.verification-input-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 213px;
+    height: 190px;
+    gap: 32px;
+}
+
+.verification-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 213px;
+    height: 136px;
+    gap: 24px;
+}
+
+div > .P2 > span {
+    color: var(--color-ye-green);
+}
+
+.ver-input::placeholder{
+    color: var(--color-grey300);
+}
+
+/* fourth file */
+
+.order-form-full{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+    width: 370px;
+    height: 278px;
+    flex-shrink: 0;
+}
+
+.order-form{
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.order-form > div:nth-child(2){
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.order-button{
+    height: 94px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ord-button{
+    width: 268px;
+    height: 54px;
+    padding: 17px 24px;
+    background: none;
+    color: var(--color-black);
+    border-color: var(--color-grey300);
+    border-radius: 32px;
+    border-width: 1px;
+}
+
+#day{
+    border-radius: 8px;
+    padding: 12px 16px;
+    width: 159px;
+    height: 46px;
+    border-color: var(--color-grey300);
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg width='14' height='8' viewBox='0 0 14 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L7 7L13 1' stroke='%2302021D' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    background-position: left 130px top 50%;
+    background-size: 0.65rem auto;
+
+}
