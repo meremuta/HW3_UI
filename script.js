@@ -14,3 +14,6 @@ const register = async() => {
     location.href = "profile.html";
 }
 
+const start  = async() => {
+    location.href = "register.html";
+}
