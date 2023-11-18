@@ -9,7 +9,7 @@ const register = async() => {
         login: login,
         password: password
     })
-    const response = await fetch("https://d5d5llivf95ebtupa2s9.apigw.yandexcloud.net/hi?" + prms, {method : "POST"});
+    const response = await fetch("https://d5drjbclojcqrqtf0nd9.apigw.yandexcloud.net/hi?" + prms, {method : "POST"});
     console.log(response)
     location.href = "profile.html";
 }
